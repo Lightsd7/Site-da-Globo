@@ -3,3 +3,58 @@
     margin: 0;
     font: 13px Arial, Verdana, Sans-Serif black; 
 }
+
+#banner {
+    
+}
+
+#primeira h2{
+    font-size: 50px;
+    float: left;
+    color: rgb(236, 46, 46);
+    font-weight: bold;
+    padding: 10px;
+    margin: 40px 55px;
+    width: 45%;
+    background-color: black;
+    margin-inline-end: 500px;
+}
+
+#primeira ul{
+    background-color: purple;
+    float: left;
+    padding: 20px;
+    margin: -40px 55px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#segunda {
+    background-color: yellow;
+    float: left;
+    padding: 20px;
+    margin: 20px 38px 55px;
+    margin-inline-end: 1500px;
+}
+
+#segunda h3{
+    background-color: purple;
+    font-weight: bold;
+    color: rgb(236, 46, 46);
+
+}
+
+#terceira {
+    background-color: yellow;
+    float: left;
+    padding: 20px;
+    margin: -278px 230px;
+    margin-inline-end: 1500px;
+}
+
+#terceira h3{
+    background-color: purple;
+    font-weight: bold;
+    color: rgb(236, 46, 46);
+    padding: 10px;
+}
