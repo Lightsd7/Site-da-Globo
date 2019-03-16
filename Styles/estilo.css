@@ -4,33 +4,51 @@
     font: 13px Arial, Verdana, Sans-Serif black; 
 }
 
-#banner {
-    
+.voar{
+    float: left;
+}
+#esquerda{
+    float: left;
+    border-right: 1px rgb(184, 184, 184) solid;
+    width: 50%;
+    height: 140%;
+    /* background-color: purple;  */
+}
+
+#meio{
+    float: left;
+    border-right: 1px rgb(184, 184, 184) solid;
+    background-color: yellow;
+    width: 330px;
+    margin: 40px 0 0 0 ;
+    text-align: center;
 }
 
 #primeira h2{
-    font-size: 50px;
+    font-size: 55px;
     float: left;
     color: rgb(236, 46, 46);
     font-weight: bold;
-    padding: 10px;
+    padding: 1px;
     margin: 40px 55px;
-    width: 45%;
-    background-color: black;
-    margin-inline-end: 500px;
+    /* background-color: black; */
+    
+   
 }
 
 #primeira ul{
-    background-color: purple;
+    /* background-color: purple; */
     float: left;
     padding: 20px;
-    margin: -40px 55px;
+    margin: -45px 55px;
     font-size: 18px;
     font-weight: bold;
+    border-bottom: 1px rgb(184, 184, 184) solid;
+    width: 550px;
 }
 
 #segunda {
-    background-color: yellow;
+    /* background-color: yellow; */
     float: left;
     padding: 20px;
     margin: 20px 38px 55px;
@@ -38,23 +56,51 @@
 }
 
 #segunda h3{
-    background-color: purple;
+    /* background-color: purple; */
     font-weight: bold;
     color: rgb(236, 46, 46);
 
 }
 
 #terceira {
-    background-color: yellow;
+    /* background-color: yellow; */
     float: left;
     padding: 20px;
-    margin: -278px 230px;
+    margin: -258px 255px 0;
     margin-inline-end: 1500px;
 }
 
 #terceira h3{
-    background-color: purple;
+    /* background-color: purple; */
     font-weight: bold;
     color: rgb(236, 46, 46);
-    padding: 10px;
+    padding: 0.5px;
+}
+
+#quarta  {
+    /* background-color: yellow; */
+    float: left;
+    padding: 20px;
+    margin: -258px 470px 0;
+    margin-inline-end: 1500px;
+}
+
+#quarta h3{
+    /* background-color: purple; */
+    font-weight: bold;
+    /* font-size: 18px; */
+    color: rgb(236, 46, 46);
+    padding: 0.5px;
+}
+
+#campo h3{
+    background-color: purple;
+    font-size: 20px;
+    color: green;
+    margin: 0 57px 0 57px;
+}
+
+#campo ul{
+    background-color: red;
+    margin: 0 0 0 60px;
 }
