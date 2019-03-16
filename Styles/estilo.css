@@ -4,23 +4,35 @@
     font: 13px Arial, Verdana, Sans-Serif black; 
 }
 
-.voar{
+#banner{
     float: left;
+    border-bottom: 1px rgb(184, 184, 184) solid;
+    width: 100%;
 }
 #esquerda{
     float: left;
     border-right: 1px rgb(184, 184, 184) solid;
     width: 50%;
-    height: 140%;
+    height: 109%;
     /* background-color: purple;  */
+    margin: 40px auto;
 }
 
 #meio{
     float: left;
     border-right: 1px rgb(184, 184, 184) solid;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 330px;
-    margin: 40px 0 0 0 ;
+    margin: 40px auto ;
+    text-align: center;
+    height: 109%;
+}
+
+#direita{
+    float: left;
+    /* background-color: yellow; */
+    width: 330px;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -30,17 +42,18 @@
     color: rgb(236, 46, 46);
     font-weight: bold;
     padding: 1px;
-    margin: 40px 55px;
+    margin: -15px 55px;
     /* background-color: black; */
+    width: 85%;
+    text-align: left;
     
-   
 }
 
 #primeira ul{
     /* background-color: purple; */
     float: left;
     padding: 20px;
-    margin: -45px 55px;
+    margin: 0px 55px;
     font-size: 18px;
     font-weight: bold;
     border-bottom: 1px rgb(184, 184, 184) solid;
@@ -66,8 +79,7 @@
     /* background-color: yellow; */
     float: left;
     padding: 20px;
-    margin: -258px 255px 0;
-    margin-inline-end: 1500px;
+    margin: -258px 235px auto;
 }
 
 #terceira h3{
@@ -81,7 +93,7 @@
     /* background-color: yellow; */
     float: left;
     padding: 20px;
-    margin: -258px 470px 0;
+    margin: -258px 440px auto;
     margin-inline-end: 1500px;
 }
 
@@ -94,13 +106,94 @@
 }
 
 #campo h3{
-    background-color: purple;
-    font-size: 20px;
+    /* background-color: purple; */
+    font-size: 22px;
     color: green;
     margin: 0 57px 0 57px;
+    text-align: left;
+    font-weight: bold;
+    
 }
 
 #campo ul{
-    background-color: red;
-    margin: 0 0 0 60px;
+    float: left;
+    /* background-color: red; */
+    margin: 5px 0 0 73px;
+    font-size: 15px;
+    text-align: left;
+    width: 60%;
+    color: green;
+}
+
+#jogador{
+    float: left;
+    margin: 20px 0 0 0;
+}
+
+#jogador h3{
+    /* background-color: purple; */
+    font-size: 22px;
+    color: green;
+    margin: 0 57px 0 57px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#jogador ul{
+    float: left;
+    /* background-color: red; */
+    margin: 5px 0 0 73px;
+    font-size: 15px;
+    text-align: left;
+    width: 60%;
+    color: green;
+}
+
+#minaBBB h3{
+    font-size: 22px;
+    color: orangered;
+    margin: 0 57px 0 57px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#minaBBB ul{
+    float: left;
+    margin: 5px 0 0 75px;
+    font-size: 15px;
+    text-align: left;
+    width: 60%;
+    color: orangered;
+}
+
+#rita{
+    margin: 60px 0 0 0;
+}
+
+#rita h3{
+    color: orangered;
+    font-size: 22px;
+    margin: 0 57px 0 57px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#rita ul{
+    float: left;
+    margin: 5px 0 0 75px;
+    font-size: 15px;
+    text-align: left;
+    width: 60%;
+    color: orangered;
+}
+
+#verao90{
+    margin: 60px 0 0 0 ;
+}
+
+#verao90 h3{
+    text-align: left;
+    margin: 5px 40px 0 55px;
+    color:orangered;
+    font-weight: bold;
 }
